@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Oswald:wght@200;300;500&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;  
+}
+
+.section{
+    padding: 90px 0px;
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+     font-weight: 16px;
+}
+
+.topbarmain{
+     background: #F5F5F5;
+ }
+
+ .container {
+     width: 1140px;
+     padding-right: 15px;
+     padding-left: 15px;
+     margin: auto;
+ }
+
+
+ .phone {
+    width: 210px;
+    float: left;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+.emil {
+    width: 736px;
+    float: left;
+}
+
+.social {
+    width: 140px;
+    float: left;
+    transition: .3s;
+}
+
+
+.topbarwrapper {
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+a {
+    display: block;
+    float: left;
+    padding: 15px;
+    border-right: 1px solid #ddd;
+    color: black;
+}
+
+
+
+
+.social a:first-child{
+    border-left: 1px solid #ddd;
+}
+
+
+
+
+
+
+
+i.fa-solid.fa-phone-flip {
+    color: #FF5200;
+}
+
+i.fa-solid.fa-envelope {
+    color: #FF5200;
+}
+
+
+
+
+
+
+.emil {
+    padding: 15px 10px;
+}
+
+.phone {
+    padding: 15px 10px;
+}
+
+
+
+.social i:hover{
+    color: #FF5200;
+}
+
+
+.logo {
+    width: 150px;
+    float: left;
+}
+
+.Menu {
+    width: 850px;
+    float: left;
+    transition: .5;
+}
+
+ul.MainMenu {
+    list-style: none;
+}
+
+li {
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    font-family: oswald;
+    text-transform: uppercase;
+    display: block;
+    padding: 19px 15px;
+}
+
+ul.MainMenu {
+    float: right;
+}
+
+.logo {
+    margin-top: 12px;
+}
+
+.Menu a:hover{
+    color: #FF5200;
+}
+
+
+
+#homeslider{
+    background-image: url(file:///C:/Users/Fahid%20hasan/Pictures/slide-1.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    height: 300px;
+    padding: 12px 43px 227px 58px;
+}
+
+
+.slidercontent {
+    color: white;
+    width: 670px;
+}
+
+h1{font-size: 50px;
+font-weight: 700;
+margin-bottom: 30px;
+padding: 162px 3px 1px;
+}
+
+p {
+    font-weight: 700;
+    line-height: 27px;
+    width: 490px;
+}
+
+button#workbutton {background: #ff5200;color: white;border: none;padding: 15px 25px;font-size: 20px;font-weight: 600;border-radius: 3px;margin-bottom: 122px;float: left;}
+
+#workbutton:hover{
+  background: black;
+}
+
+.slidernavi {
+    width: 200px;
+    margin: auto;
+}
+
+.slidernavi span {
+    width: 8px;
+    height: 8px;
+    background: transparent;
+    border: 3px solid #ddd;
+    display: block;
+    border-radius: 100%;
+    padding: 20px 10px 10px -1px;
+    margin-top: 130px;
+    margin-left: 137px;
+    cursor: pointer;
+}
+
+.slidernavi span {
+    background: #FF5200;
+    color: #FF5200;
+    border-color: #FF5200;
+}
+
+.slidernavi1 span {
+    width: 8px;
+    height: 8px;
+    background: transparent;
+    border: 3px solid #ddd;
+    display: block;
+    border-radius: 100%;
+    padding: 20px 10px 10px -1px;
+    margin-top: -13px;
+    margin-left: 584px;
+    cursor: pointer;
+}
+
+
+
+section#services {
+    padding-bottom: 209px;
+}
+#services{
+    background: rgb(202, 200, 200); 
+}
+.singlebox {
+    width: 270px;
+    background: white;
+    padding: 50px;
+}
+
+.xboxTitle {
+    text-align: center;
+}
+
+h2 {
+    margin: 20px;
+}
+
+.xboxTitle {
+    margin: auto;
+    text-transform: uppercase;
+}
+
+ 
+.xboxichon {
+    text-align: center;
+    font-size: 44px;
+    color: #FF5200;
+    margin: 14px;
+}
+
+.xboxDesk {
+    text-align: center;
+    margin: 25px;
+}
+
+.xboxLink {
+    text-align: center;
+    color: #FF5200;
+    font-weight: 700;
+}
+
+.singlebox {
+    width: 175px;;
+    background: white;
+    padding: 50px;
+    float: left;
+    margin-right: 10px;
+    height: 289px;
+}
+
+.singlebox:hover{
+    background: #FF5200;
+    color: white; 
+    cursor:pointer;
+    transition: .4s;
+}
+
+.singlebox:hover .xboxichon i{ color: white;}
+
+.sboxactive{
+    background: #ff5200;
+    color: white;
+}
+
+.sboxactive h2{
+    color: white;
+}
+
+.sboxactive a{
+    color: white;
+}
+
+
+.sboxactive i{
+    color: white;
+}
+
+
+
+#ourTeam{padding: 80px;}
+    
+.teamImage {
+    width: 550px;
+}
+
+.teamContets {
+    overflow: hidden;
+}
+
+img {
+    max-width: 100%;
+}
+
+.teamDetails {
+    width: 559px;
+    float: right;
+    margin-top: -371px;
+	margin-right: 40px;
+}
